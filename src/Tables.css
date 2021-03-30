@@ -1,0 +1,15 @@
+.tables {
+    display: grid;
+    grid-template-columns: 80px 50px 50px 50px 50px 50px;
+    grid-template-rows: 30px 50px 50px 50px 50px 50px;
+    grid-gap: 5px;
+    margin-top: 20px;
+}
+
+.field {
+    text-align: center;
+    padding-top: 3px;
+    /* border: 2px solid none; */
+    cursor: pointer;
+}
+

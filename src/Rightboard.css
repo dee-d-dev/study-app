@@ -1,0 +1,115 @@
+.Rightboard {
+    background-color: rgba(85, 66, 66, 0.863);
+    padding: 60px 15px 40px 15px;
+}
+
+.top{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px ;
+}
+
+.input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-family: Quicksand;
+    color: rgb(204, 203, 203);
+    font-size: 15px;
+}
+
+input::placeholder{
+    font-family: Quicksand;
+    color: rgb(204, 203, 203);
+}
+
+.search {
+    text-align: center;
+    vertical-align: center;
+}
+
+.section-head {
+    display: flex;
+    margin-top: 20px;
+}
+.inner-header {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 100px 50px;
+    text-align: center;
+    grid-column-gap: 5px;
+}
+
+.inner-header p{
+    margin: 0 15px 0 0;
+    width: 100%;
+    font-size:15px;
+}
+
+.inner-header span {
+    color: rgb(172, 154, 154);
+    font-size: 12px;
+    width: 100%;
+    margin-top: 5px;
+    margin-right: 30px;
+}
+
+.view-all {
+    width: 29%;
+    color: #d8e7fa;
+    margin: 0;
+}
+
+
+.classes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0px;
+}
+
+.timetable{
+    display: flex;
+    margin-top: 40px;
+}
+
+
+.tt-head p {
+    margin-top: 0;
+    margin-bottom: 2px;
+    font-size: 17px;
+    margin-right: 5px;
+    width: 100%;
+    font-weight: 700;
+}
+
+.tt-head span {
+    font-size: 12px;
+    color: wheat;
+}
+
+
+.class-search {
+    padding: 0;
+    height: 25px;
+    margin-top: 10px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(104, 101, 101);
+    color: grey;
+    font-family: Quicksand;
+    font-size: 17px;
+}
+
+.tt-icon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap:20px;
+}
+
+.change {
+    background-color: white !important;
+}

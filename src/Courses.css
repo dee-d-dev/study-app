@@ -1,0 +1,133 @@
+.courses {
+    background-color: rgba(148, 136, 136, 0.466);
+    /* margin: 10px 0px 30px 0px; */
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.options {
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    top: -12px;
+    left: 100%;
+}
+
+.options::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    display: block;
+    border-radius: 5px;
+
+}
+
+.options::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 5px;
+
+    position: absolute;
+    bottom: 10px;
+    display: block;
+
+}
+
+.user-info {
+    display: grid;
+    grid-template-rows: 30px 1fr;
+    grid-row-gap: 2px;
+    padding-bottom: 10px;
+}
+
+.user-image {
+    width: 100%;
+    margin-top: 3px;
+}
+
+.user-image img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px; 
+}
+
+.user-details {
+    width: 100%;
+}
+
+.user-course-name {
+    font-size: 13px;
+    color: wheat;
+    vertical-align: center;
+    margin-top: 7px;
+    width: 100%;
+
+}
+
+.course-header{
+    display: grid;
+    grid-template-columns:30px 1fr;
+    grid-column-gap: 10px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+hr {
+    width: 110%;
+    transform: translateX(-20px);
+    border-color: rgb(139, 139, 139);
+}
+.country {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30px 60px 100px;
+    grid-column-gap:10px;
+}
+
+.country img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px; 
+}
+
+.nationality {
+    margin-top: 6px;
+}
+
+.class-level {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #a5c8f7;
+
+}
+
+.class-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 10px;
+    margin-top: 20px;
+}
+
+.class-option{
+    display: grid;
+    grid-template-columns: 30px 90px;
+    grid-column-gap: 5px;
+}
+
+.icon-title {
+    color: grey;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 6px;
+}
+
