@@ -1,0 +1,143 @@
+.centerspace {
+  background-color: rgb(20, 13, 13);
+  padding: 0px 40px;
+}
+
+.stories{
+    /* background-color: red; */
+    padding: 20px 0px 10px 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-column-gap: 30px;
+}
+
+
+.story {
+    width: 51px;
+    height: 51px;
+    border: 3px dashed transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right, rgb(255, 0, 140),#6200ff);
+    text-align: center;
+    vertical-align: center;
+    position: relative;
+    display: grid;
+    grid-template-rows: 60px 20px;
+    grid-row-gap: 5px;
+}
+
+
+.story-content {
+    width: 52px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+
+}
+
+.story-content p {
+    font-size: 38px;
+    transform: translateY(-40px);
+
+}
+
+.name {
+    font-size: 14px;
+}
+
+.welcome {
+    margin: 60px 0px 30px 0px;
+    padding: 30px 30px;
+    background-color: rgba(148, 136, 136, 0.466);
+    border-radius: 10px;
+    position: relative;
+}
+
+.greetings {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.message {
+    font-weight: 100;
+    color: rgb(172, 154, 154);
+}
+.message span {
+    font-weight: 900;
+    color: white;
+}
+
+.message-btn {
+    background-color: #f36f45;
+    width: 150px;
+    padding: 15px 15px 19px 15px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.welcome img {
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+.analytics {
+    margin: 30px 0px 30px 0px;
+    padding: 30px 30px;
+    background-color: rgba(148, 136, 136, 0.466);
+    border-radius: 10px;
+    position: relative;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.subheading {
+    font-size: 20px;
+}
+
+.last-section{
+    margin-bottom: 20px;
+}
+
+.section-header {
+    display: flex;
+    grid-template-columns: 50px 50px 100px;
+    /* width: 100%; */
+}
+.courses-header {
+    font-size: 25px;
+    display: flex;
+    width: 100%;
+}
+
+.courses-header p{
+    margin: 0 15px 0 0;
+    width: 30%;
+}
+
+.courses-header span {
+    color: rgb(172, 154, 154);
+    font-size: 15px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.view {
+    width: 10% !important;
+    color: #d8e7fa;
+}
+
+
+
+.course{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-column-gap: 10px;
+}
