@@ -1,6 +1,7 @@
 import '../Tables.css'
 
 const Tables = ({yes, no}) =>{
+    
     return(
         <div class="tables">
             <div className="field first-row"></div>
